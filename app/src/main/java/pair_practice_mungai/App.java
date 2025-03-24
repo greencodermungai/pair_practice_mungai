@@ -10,5 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        String name = "Mungai";
+        System.out.println("Hello " + name);
     }
 }
